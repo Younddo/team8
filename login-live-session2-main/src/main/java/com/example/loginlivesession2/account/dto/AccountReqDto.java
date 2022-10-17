@@ -16,6 +16,9 @@ public class AccountReqDto {
     @NotBlank
     private String phoneNumber;
 
+    @NotBlank
+    private String ABC;
+
     public AccountReqDto(String email, String password, String phoneNumber) {
         this.email = email;
         this.password = password;
